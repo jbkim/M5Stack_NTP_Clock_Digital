@@ -4,3 +4,4 @@
   2. Add NTP (Network Time Protocol)
   3. Need to install NTPClient library https://github.com/taranais/NTPClient
 
+  <img src="./ntp_clock.jpg">
