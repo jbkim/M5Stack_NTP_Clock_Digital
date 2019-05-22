@@ -110,7 +110,9 @@ void loop() {
   Serial.print("DATE: ");
   Serial.println(dayStamp);
 
-  M5.Lcd.drawString(dayStamp.c_str(), 0, 0, 1);
+  M5.Lcd.setTextSize(2);
+  M5.Lcd.drawString(dayStamp.c_str(), 200, 0, 1);
+  M5.Lcd.setTextSize(1);
 
   // Extract time
   timeStamp = formattedDate.substring(splitT+1, formattedDate.length()-1);
