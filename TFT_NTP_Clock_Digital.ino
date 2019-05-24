@@ -40,8 +40,6 @@ code	color
 // Replace with your network credentials
 // const char* ssid     = "REPLACE_WITH_YOUR_SSID";
 // const char* password = "REPLACE_WITH_YOUR_PASSWORD";
-const char* ssid     = "Ateam";
-const char* password = "Ateam20140701";
 
 // Define NTP Client to get time
 WiFiUDP ntpUDP;
